@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&family=Cinzel:wght@400;700&family=Lora:wght@400;700&family=Crimson+Text:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #3E2723; /* Noir pour correspondre au thème du logo */
+  color: #fff;
+  line-height: 1.6;
+  margin: 0;
+}
+
+
+/* 🌿 Titres principaux */
+h1, h2, h3 {
+  font-family: "Uncial Antiqua", serif; /* Une police élégante pour les titres */
+  font-weight: 600;
+  color: #2c2c2c;
+  text-align: center;
+}
+
+/* ✨ H1 - Principal */
+h1 {
+  font-size: 2.5rem; /* Grand et apaisant */
+  margin-bottom: 20px;
+}
+
+/* 🌊 H2 - Secondaire */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+/* 🍃 H3 - Sous-titre */
+h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+/* 📝 Paragraphe */
+p {
+  font-size: 1.1rem;
+  text-align: justify;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+}
+
+/* 🌟 Effet subtil sur les liens */
+a {
+  color: #5a8f7b; /* Vert apaisant */
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #2f6b59;
+}
+
+/* 🧘 Espacement pour une meilleure lecture */
+.content {
+  margin: 50px auto;
+  padding: 30px;
+  max-width: 1000px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
