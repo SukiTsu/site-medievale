@@ -1,0 +1,80 @@
+/* Importation d'une police médiévale */
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+
+.content-plus {
+    font-family: 'Uncial Antiqua', cursive;
+    background: url('https://www.transparenttextures.com/patterns/aged-paper.png'); /* Effet parchemin */
+    color: #3e2723; /* Marron foncé */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* INTRODUCTION DU POÈME */
+.poem-intro {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #5a3825;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 15px;
+    background: rgba(255, 244, 214, 0.9);
+    border-left: 5px solid #8b5a2b;
+    border-right: 5px solid #8b5a2b;
+    border-radius: 10px;
+}
+
+/* STYLE DU POÈME */
+.poem {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(255, 244, 214, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    font-style: italic;
+    border: 3px solid #8b5a2b;
+}
+.poem p{
+    text-align: center;
+}
+
+
+/* SECTION VOCABULAIRE */
+.vocabulaire {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(250, 230, 190, 0.95);
+    border-radius: 10px;
+    border: 3px solid #8b5a2b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.vocabulaire h2 {
+    font-size: 2rem;
+    color: #8b5a2b;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.vocabulaire h3, .vocabulaire h4 {
+    color: #5a3825;
+    margin-top: 15px;
+}
+
+.vocabulaire ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.vocabulaire li {
+    font-size: 1.2rem;
+    margin: 5px 0;
+    padding-left: 10px;
+    border-left: 3px solid #8b5a2b;
+}

@@ -21,7 +21,7 @@ const Footer =({}) => {
                 <a href="#"><i className="fa-brands fa-instagram"></i></a>
                 <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
             </div>
-            <a href="#" className="footer-link">Nous contacter</a>
+            <a href="/contact" className="footer-link">Nous contacter</a>
         </div>
     </div>
 </footer>

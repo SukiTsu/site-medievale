@@ -1,0 +1,59 @@
+/* Import d'une police médiévale */
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+.content-actualie {
+    font-family: 'MedievalSharp', cursive;
+    background-color: #f4e9d8;
+    color: #3b2f2f;
+    margin: 0;
+    padding: 0;
+}
+
+/* Conteneur des actualités */
+.news-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Styles des articles */
+.news {
+    background: #e0c097;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 90%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    border: 3px solid #8b5a2b;
+}
+
+.news h2 {
+    font-size: 1.8rem;
+    margin: 0;
+    color: #5c3b2e;
+}
+
+.news .date {
+    font-size: 0.9rem;
+    color: #744c2e;
+    font-style: italic;
+}
+
+.news p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    .news {
+        font-size: 1rem;
+    }
+
+    .news h2 {
+        font-size: 1.5rem;
+    }
+}

@@ -1,9 +1,17 @@
+import "../assets/style/stylePageNotFound.css"
+
 const NotFound = ({}) => {
 
     return(
         <>
-            <h1>Page non trouvé</h1>
-            <a href="/"><p>Retourné à la page d'accueil</p></a>
+        <div className="content-not-found">
+            <div className="not-found-container">
+                <h1>Erreur 404</h1>
+                <p>Hélas, noble voyageur, la page que vous cherchez a disparu dans les limbes du royaume.</p>
+                <img src="./img_not_found.webp" alt="Chevalier perdu" />
+                <p><a href="/" className="return-button">Retour au château</a></p>
+            </div>
+        </div>
         </>
     )
 

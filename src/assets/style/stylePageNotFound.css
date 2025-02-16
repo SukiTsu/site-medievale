@@ -1,0 +1,91 @@
+/* Import de la police médiévale */
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+.content-not-found {
+    font-family: 'MedievalSharp', cursive;
+    background-color: #f4e9d8;
+    color: #3b2f2f;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Conteneur de la page 404 */
+.not-found-container {
+    text-align: center;
+    background: #e0c097;
+    padding: 30px;
+    border-radius: 15px;
+    border: 5px solid #8b5a2b;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+    max-width: 600px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Effet d'apparition */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Titre */
+.not-found-container h1 {
+    font-size: 3rem;
+    color: #5c3b2e;
+    margin-bottom: 10px;
+}
+
+/* Texte */
+.not-found-container p {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+/* Image */
+.not-found-container img {
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Bouton de retour */
+.return-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    background-color: #8b5a2b;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.return-button:hover {
+    background-color: #5c3b2e;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .not-found-container {
+        max-width: 90%;
+    }
+
+    .not-found-container h1 {
+        font-size: 2.5rem;
+    }
+
+    .not-found-container p {
+        font-size: 1.1rem;
+    }
+}
