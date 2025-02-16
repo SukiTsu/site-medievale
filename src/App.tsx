@@ -4,10 +4,10 @@ import NotFound from './page/NotFound'
 import "./assets/style/styleIndex.css"
 import About from './page/About'
 import Contact from './page/Contact'
-import Amf from './page/Amf'
 import PageProchainEvent from './page/PageProchainEvent'
-import PagePastEvents from './page/PagePasseEvenement'
 import MentionLegal from './page/Mention-legal'
+import PagePhoto from './page/PagePhotos'
+import PageHistory from './page/PageHistory'
 
 
 function App() {
@@ -17,10 +17,10 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/actualite" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/historique" element={<PagePastEvents />} />
+        <Route path="/historique" element={<PageHistory />} />
         <Route path="/petit-plus" element={<PageProchainEvent />} />
         <Route path="/mention-legal" element={<MentionLegal />} />
-        <Route path="/photo" element={<Amf />} />
+        <Route path="/photo" element={<PagePhoto />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

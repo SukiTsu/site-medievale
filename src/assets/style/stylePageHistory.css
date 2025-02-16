@@ -1,0 +1,35 @@
+/* Importation d'une police médiévale */
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+.content-history {
+    font-family: 'MedievalSharp', cursive;
+    background: url('https://www.transparenttextures.com/patterns/aged-paper.png'); /* Fond effet parchemin */
+    color: #3e2723; /* Marron foncé */
+    margin: 0;
+    padding: 0;
+}
+
+/* STYLE DES SECTIONS */
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(255, 244, 214, 0.9); /* Effet papier parchemin */
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.story {
+    border-left: 5px solid #8b5a2b;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #5a3825; /* Marron foncé */
+    border-bottom: 3px solid #8b5a2b;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
