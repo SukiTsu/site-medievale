@@ -7,6 +7,7 @@ import Contact from './page/Contact'
 import Amf from './page/Amf'
 import PageProchainEvent from './page/PageProchainEvent'
 import PagePastEvents from './page/PagePasseEvenement'
+import MentionLegal from './page/Mention-legal'
 
 
 function App() {
@@ -14,11 +15,12 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/a-propos" element={<About />} />
+        <Route path="/actualite" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/prestation-passe" element={<PagePastEvents />} />
-        <Route path="/prestation-futur" element={<PageProchainEvent />} />
-        <Route path="/amf" element={<Amf />} />
+        <Route path="/historique" element={<PagePastEvents />} />
+        <Route path="/petit-plus" element={<PageProchainEvent />} />
+        <Route path="/mention-legal" element={<MentionLegal />} />
+        <Route path="/photo" element={<Amf />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

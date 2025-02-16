@@ -9,7 +9,7 @@ const Footer =({}) => {
                 <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
                 <a href="#"><i className="fa-brands fa-twitter"></i></a>
             </div>
-            <a href="#" className="footer-link">Mention légale</a>
+            <a href="/mention-legal" className="footer-link">Mention légale</a>
         </div>
 
         <div className="footer-center">

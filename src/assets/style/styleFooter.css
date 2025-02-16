@@ -48,7 +48,7 @@
 
 /* Lien texte */
 .footer-link {
-    color: #00ff88;
+    color: #8B2F1C;
     text-decoration: none;
     font-size: 14px;
     transition: color 0.3s;
@@ -58,23 +58,10 @@
     color: #fff;
 }
 
-/* Icônes des réseaux sociaux */
-.social-icons {
-    display: flex;
-    gap: 10px;
+/* Image centrale */
+.footer-center img {
+    width: 80px; /* Ajuste la taille selon ton logo */
 }
-
-.social-icons a {
-    font-size: 24px;
-    color: #00ff88;
-    transition: transform 0.3s ease, color 0.3s ease;
-}
-
-.social-icons a:hover {
-    transform: scale(1.1);
-    color: #fff;
-}
-
 
 /* Responsive */
 @media (max-width: 768px) {
