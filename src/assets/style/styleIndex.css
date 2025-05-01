@@ -1,15 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&family=Cinzel:wght@400;700&family=Lora:wght@400;700&family=Crimson+Text:wght@400;700&display=swap');
 
+:root {
+  --footer-height: 70px; /* ou ajuste selon la vraie hauteur du footer */
+}
+
+
 body {
   margin: 0;
   padding: 0;
-  padding-bottom: 80px;
   font-family: 'Arial', sans-serif;
   background-color: #3E2723; /* Noir pour correspondre au thème du logo */
   color: #fff;
   line-height: 1.6;
-  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
+
 
 
 /* 🌿 Titres principaux */

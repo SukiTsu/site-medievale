@@ -15,7 +15,7 @@ const MentionLegal = ({}) => {
 
             <section className="content">
                 <h2>🏰 Développement et graphisme</h2>
-                La version actuelle du site Les Médiévales d'Asnières-sur-Oise a été développée et designée par Brandon.
+                <p>La version actuelle du site Les Médiévales d'Asnières-sur-Oise a été développée et designée par Brandon (<a href="https://brandon-bui.fr">son site</a>).</p>
                 <h2>⚖️ Hébergement</h2>
                 <p>Le site est hébergé par <strong>Vercel</strong>.</p>
 

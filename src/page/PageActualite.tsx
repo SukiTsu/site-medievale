@@ -6,9 +6,21 @@ const PageActualite = ({}) => {
 
     return (
         <>
-        <NavBarre strTitre="Actualité"/>
+        <NavBarre strTitre="L'actualité"/>
         <div className="content-actualite">
             <main className="news-container">
+            <article className="news">
+                    <h2>La Médiévale d’Asnières-sur-Oise</h2>
+                    <p className="date">Avenir: le 11-12 octobre 2025</p>
+                    <p>
+
+Préparez vos capes et vos heaumes, car le village d’Asnières-sur-Oise replonge dans le passé à l’occasion de ses traditionnelles Médiévales ! 
+Durant tout un week-end, les ruelles s’animent au rythme des troubadours, des chevaliers et des artisans. Spectacles de fauconnerie, combats en armure, campements historiques et marchés d’époque transporteront petits et grands au cœur du Moyen Âge. 
+Un moment festif et convivial à ne pas manquer !
+
+
+                    </p>
+                </article>
                 <article className="news">
                     <h2>Tournoi des Chevaliers</h2>
                     <p className="date">Publié le 10 février 2025</p>
